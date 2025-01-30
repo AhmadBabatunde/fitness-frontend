@@ -75,6 +75,9 @@
   color: #3a3b3d;
   background-color: #fff;
   padding: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  word-break: break-word;
   border-radius: 0 10px 10px 10px;
   text-align: left;
   font-weight: 500;
@@ -93,7 +96,7 @@
   border-radius: 10px 0 10px 10px;
   min-width: 100px;
   max-width: 500px;
-  white-space: normal;
+  white-space: pre-wrap;
   word-wrap: break-word;
   word-break: break-word;
   text-align: justify;
