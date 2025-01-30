@@ -50,8 +50,8 @@ class ActionProvider {
     }
 
     try {
-      const url = "https://fitness-backendgunicorn-app-app-bind-0-0.onrender.com/chat"; // Your API URL
-     // const url = "http://127.0.0.1:5001/chat";
+     // const url = "https://fitness-backendgunicorn-app-app-bind-0-0.onrender.com/chat"; // Your API URL
+      const url = "http://127.0.0.1:5001/chat";
       const response = await axios.post(url, {
         question: question,
         user_id: localStorage.getItem("user_id"),
